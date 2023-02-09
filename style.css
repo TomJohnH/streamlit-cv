@@ -143,6 +143,7 @@ a.fill-div:active {
     height: 100%;
     width: 100%;
     text-decoration: none;
-    pointer-events: all;
+    pointer-events: none;
     background-color: red;
+
 }
