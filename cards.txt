@@ -1,0 +1,22 @@
+<div class="card-groups">
+    <div class="card-group" data-index="0" data-status="active">
+        <div class="little-card card">
+        </div>
+        <div class="big-card card">
+        </div>
+        <div class="little-card card">
+        </div>
+        <div class="big-card card">
+        </div>
+        <div class="little-card card">
+        </div>
+        <div class="big-card card">
+        <a href="https://github.com/TomJohnH" class="fill-div"></a>
+        </div>
+        <div class="little-card card">
+        </div>
+        <div class="big-card card">
+        <a href="https://www.linkedin.com/in/hasiow/" class="fill-div"></a>
+        </div>
+    </div>
+</div>
