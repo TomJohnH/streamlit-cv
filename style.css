@@ -76,22 +76,22 @@
 }
 
 .big-card:nth-child(2) {
-    background-image: url("https://raw.githubusercontent.com/TomJohnH/st-cv/main/images/image4.png?token=GHSAT0AAAAAAB6GRVJQM7HQONWWMXLK3VVQY7FLQJQ");
+    background-image: url("https://raw.githubusercontent.com/TomJohnH/streamlit-cv/main/images/image4.png");
     transform: translateX(-10%) rotate(-1deg);
 }
 
 .big-card:nth-child(4) {
-    background-image: url("https://raw.githubusercontent.com/TomJohnH/st-cv/main/images/image3.png?token=GHSAT0AAAAAAB6GRVJQW7VNNANXJIOM5SRYY7FLQDA");
+    background-image: url("https://raw.githubusercontent.com/TomJohnH/streamlit-cv/main/images/image3.png");
     transform: rotate(2deg);
 }
 
 .big-card:nth-child(6) {
-    background-image: url("https://raw.githubusercontent.com/TomJohnH/st-cv/main/images/image2.png?token=GHSAT0AAAAAAB6GRVJRRHCAEZVWMCOKLORUY7FLP5Q");
+    background-image: url("https://raw.githubusercontent.com/TomJohnH/streamlit-cv/main/images/image2.png");
     transform: translateX(-6%) rotate(-3deg);
 }
 
 .big-card:nth-child(8) {
-    background-image: url("https://raw.githubusercontent.com/TomJohnH/st-cv/main/images/image1.png?token=GHSAT0AAAAAAB6GRVJQ2F2DHH2NKBDSLNNSY7FLPTA");
+    background-image: url("https://raw.githubusercontent.com/TomJohnH/streamlit-cv/main/images/image1.png");
     background-size: contain;
     transform: translate(10%, 3%) rotate(5deg);
 }
