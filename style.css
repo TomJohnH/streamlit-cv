@@ -25,33 +25,6 @@
     transition: transform 400ms ease;
 }
 
-.card-group[data-status="unknown"] {
-    transform: scale(0);
-    transition: none;
-}
-
-.card-group[data-status="active"] {
-    transition-delay: 300ms;
-}
-
-.card-group[data-status="after"] {
-    transform: translateX(50%) scale(0);
-}
-
-.card-group[data-status="before"] {
-    transform: translateX(-50%) scale(0);
-}
-
-.card-group[data-status="becoming-active-from-after"] {
-    transform: translateX(50%) scale(0);
-    transition: none;
-}
-
-.card-group[data-status="becoming-active-from-before"] {
-    transform: translateX(-50%) scale(0);
-    transition: none;
-}
-
 .card {
     background-color: rgba(255, 255, 255, 0.05);
     position: absolute;
@@ -63,6 +36,7 @@
 
 .big-card {
     border-radius: 1vmin;
+
 }
 
 .little-card {
@@ -117,8 +91,10 @@
     box-shadow: -2vmin 2vmin 3vmin rgba(0, 0, 0, 0.4);
 }
 
-.card-group:hover>.big-card:nth-child(2) {
+.card-group:hover>.big-card:nth-child(2),
+.card-group:active>.big-card:nth-child(2) {
     transform: translate(-75%, 16%) rotate(-24deg);
+
 }
 
 .card-group:hover>.big-card:nth-child(4) {
@@ -149,88 +125,24 @@
     transform: translate(-280%, 140%) rotate(-15deg);
 }
 
-.card-swiper-buttons {
-    margin-top: 8vmin;
-    display: flex;
-    justify-content: space-around;
-    padding: 0vmin 4vmin;
-}
-
-.card-swiper-buttons>button {
-    font-size: 2.5vmin;
-    border: 0.4vmin solid rgb(200, 200, 200);
-    border-radius: 100%;
-    color: white;
-    background-color: transparent;
-    height: 7vmin;
-    width: 7vmin;
-    display: grid;
-    place-items: center;
-    cursor: pointer;
-}
-
-#love-button {
-    color: rgb(33, 150, 243);
-    border-color: rgb(33, 150, 243);
-}
-
-/* -- YouTube Link Styles -- */
-
-body.menu-toggled>.meta-link>span {
-    color: rgb(30, 30, 30);
-}
-
-#source-link {
-    bottom: 60px;
-}
-
-#source-link>i {
-    color: rgb(94, 106, 210);
-}
-
-#yt-link>i {
-    color: rgb(239, 83, 80);
-}
-
-.meta-link {
-    align-items: center;
-    backdrop-filter: blur(3px);
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 6px;
-    bottom: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    display: inline-flex;
-    gap: 5px;
-    left: 10px;
-    padding: 10px 20px;
-    position: fixed;
-    text-decoration: none;
-    transition: background-color 400ms, border-color 400ms;
-    z-index: 10000;
-}
-
-.meta-link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.meta-link>i,
-.meta-link>span {
-    height: 20px;
-    line-height: 20px;
-}
-
-.meta-link>span {
-    color: white;
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
-}
 
 a.fill-div {
     display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+
+a.fill-div:active {
+    pointer-events: none;
+}
+
+a.fill-div:hover,
+a.fill-div:active {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    pointer-events: all;
+    background-color: red;
 }
