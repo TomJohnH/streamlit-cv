@@ -54,6 +54,13 @@ st.markdown(str(f.read()), unsafe_allow_html=True)
 
 f.close()
 
-# components.html("""const mouseoverEvent = new Event('mouseover');
+# components.html(
+#     """
+# <script>const link = parent.window.document.getElementsByClassName("big-card");
 
-# whateverElement.dispatchEvent(mouseoverEvent);""")
+# link[2].addEventListener("click", function() {
+#   link[2].onclick = function() {
+#     alert("Link is now active!");
+#   };
+# });</script>"""
+# )

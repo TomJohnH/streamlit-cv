@@ -18,11 +18,13 @@
 .card-group,
 .big-card {
     width: 30vmin;
+
 }
 
 .card-group {
     position: absolute;
     transition: transform 400ms ease;
+
 }
 
 .card {
@@ -32,6 +34,7 @@
 
     background-position: center;
     background-size: cover;
+
 }
 
 .big-card {
@@ -46,7 +49,6 @@
     top: 50%;
     transform: translate(-50%, -50%);
     box-shadow: -1vmin 1vmin 2vmin rgba(0, 0, 0, 0.25);
-    pointer-events: none;
 }
 
 .big-card:nth-child(2) {
@@ -91,8 +93,7 @@
     box-shadow: -2vmin 2vmin 3vmin rgba(0, 0, 0, 0.4);
 }
 
-.card-group:hover>.big-card:nth-child(2),
-.card-group:active>.big-card:nth-child(2) {
+.card-group:hover>.big-card:nth-child(2) {
     transform: translate(-75%, 16%) rotate(-24deg);
 
 }
@@ -131,20 +132,4 @@ a.fill-div {
     height: 100%;
     width: 100%;
     text-decoration: none;
-    pointer-events: none;
-}
-
-a.fill-div:active {
-    /* pointer-events: none; */
-}
-
-a.fill-div:hover,
-a.fill-div:active {
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-    /* pointer-events: none; */
-    /* background-color: red; */
-
 }
