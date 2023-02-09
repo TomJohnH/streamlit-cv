@@ -131,10 +131,11 @@ a.fill-div {
     height: 100%;
     width: 100%;
     text-decoration: none;
+    pointer-events: none;
 }
 
 a.fill-div:active {
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 a.fill-div:hover,
@@ -143,7 +144,7 @@ a.fill-div:active {
     height: 100%;
     width: 100%;
     text-decoration: none;
-    pointer-events: none;
-    background-color: red;
+    /* pointer-events: none; */
+    /* background-color: red; */
 
 }
