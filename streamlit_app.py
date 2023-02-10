@@ -4,6 +4,7 @@ import streamlit.components.v1 as components
 # idea & html/css code from
 # https://codepen.io/Hyperplexed/pen/zYWdYoo
 
+# adjusted for streamlit by TomJohn :-)
 
 # ------------------------------------------------------------
 #
