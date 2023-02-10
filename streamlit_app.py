@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-# idea from
+# idea & html/css code from
 # https://codepen.io/Hyperplexed/pen/zYWdYoo
 
 
