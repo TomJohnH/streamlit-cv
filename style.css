@@ -74,19 +74,19 @@
 
 
 .little-card:nth-child(1) {
-    background-image: url("https://a.allegroimg.com/original/11cf2a/eb578bdf4f929f31f77067beed76/The-Pyramid-Principle-Logic-in-Writing-and");
+    background-image: url("https://raw.githubusercontent.com/TomJohnH/streamlit-cv/main/images/small1.jpg");
 }
 
 .little-card:nth-child(3) {
-    background-image: url("https://s.lubimyczytac.pl/upload/books/4979000/4979454/920736-352x500.jpg");
+    background-image: url("https://raw.githubusercontent.com/TomJohnH/streamlit-cv/main/images/small2.jpg");
 }
 
 .little-card:nth-child(5) {
-    background-image: url("https://m.media-amazon.com/images/I/41p9jKDtqOL._SX372_BO1,204,203,200_.jpg");
+    background-image: url("https://raw.githubusercontent.com/TomJohnH/streamlit-cv/main/images/small3.jpg");
 }
 
 .little-card:nth-child(7) {
-    background-image: url("https://m.media-amazon.com/images/I/61u4nLxDGPL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg");
+    background-image: url("https://raw.githubusercontent.com/TomJohnH/streamlit-cv/main/images/small4.jpg");
 }
 
 .card-group:hover>.card {
